@@ -17,6 +17,7 @@
 		FDDF190315EBFDF700537CF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDF18E315EBFDF700537CF4 /* Cocoa.framework */; };
 		FDDF190B15EBFDF700537CF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDDF190915EBFDF700537CF4 /* InfoPlist.strings */; };
 		FDDF190E15EBFDF700537CF4 /* AMWorkflowCallerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDF190D15EBFDF700537CF4 /* AMWorkflowCallerTests.m */; };
+		FDDF191915EC01BA00537CF4 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDF191815EC01BA00537CF4 /* Automator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		FDDF190A15EBFDF700537CF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FDDF190C15EBFDF700537CF4 /* AMWorkflowCallerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMWorkflowCallerTests.h; sourceTree = "<group>"; };
 		FDDF190D15EBFDF700537CF4 /* AMWorkflowCallerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMWorkflowCallerTests.m; sourceTree = "<group>"; };
+		FDDF191715EBFF3300537CF4 /* AMWorkflowCaller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AMWorkflowCaller.entitlements; sourceTree = "<group>"; };
+		FDDF191815EC01BA00537CF4 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = ../../../../../System/Library/Frameworks/Automator.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDDF18E415EBFDF700537CF4 /* Cocoa.framework in Frameworks */,
+				FDDF191915EC01BA00537CF4 /* Automator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +98,7 @@
 		FDDF18E215EBFDF700537CF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FDDF191815EC01BA00537CF4 /* Automator.framework */,
 				FDDF18E315EBFDF700537CF4 /* Cocoa.framework */,
 				FDDF190115EBFDF700537CF4 /* SenTestingKit.framework */,
 				FDDF18E515EBFDF700537CF4 /* Other Frameworks */,
@@ -114,6 +119,7 @@
 		FDDF18E915EBFDF700537CF4 /* AMWorkflowCaller */ = {
 			isa = PBXGroup;
 			children = (
+				FDDF191715EBFF3300537CF4 /* AMWorkflowCaller.entitlements */,
 				FDDF18F515EBFDF700537CF4 /* PBAppDelegate.h */,
 				FDDF18F615EBFDF700537CF4 /* PBAppDelegate.m */,
 				FDDF18F815EBFDF700537CF4 /* MainMenu.xib */,
@@ -329,6 +335,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -357,6 +364,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -373,11 +381,14 @@
 		FDDF191215EBFDF700537CF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AMWorkflowCaller/AMWorkflowCaller.entitlements;
+				CODE_SIGN_IDENTITY = "pbrc dev";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMWorkflowCaller/AMWorkflowCaller-Prefix.pch";
 				INFOPLIST_FILE = "AMWorkflowCaller/AMWorkflowCaller-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -385,11 +396,14 @@
 		FDDF191315EBFDF700537CF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AMWorkflowCaller/AMWorkflowCaller.entitlements;
+				CODE_SIGN_IDENTITY = "pbrc dev";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMWorkflowCaller/AMWorkflowCaller-Prefix.pch";
 				INFOPLIST_FILE = "AMWorkflowCaller/AMWorkflowCaller-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
