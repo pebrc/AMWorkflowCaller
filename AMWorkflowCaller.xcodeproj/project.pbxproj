@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDDF18E415EBFDF700537CF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDF18E315EBFDF700537CF4 /* Cocoa.framework */; };
+		FDDF18EE15EBFDF700537CF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDDF18EC15EBFDF700537CF4 /* InfoPlist.strings */; };
+		FDDF18F015EBFDF700537CF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDF18EF15EBFDF700537CF4 /* main.m */; };
+		FDDF18F415EBFDF700537CF4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FDDF18F215EBFDF700537CF4 /* Credits.rtf */; };
+		FDDF18F715EBFDF700537CF4 /* PBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDF18F615EBFDF700537CF4 /* PBAppDelegate.m */; };
+		FDDF18FA15EBFDF700537CF4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDDF18F815EBFDF700537CF4 /* MainMenu.xib */; };
+		FDDF190215EBFDF700537CF4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDF190115EBFDF700537CF4 /* SenTestingKit.framework */; };
+		FDDF190315EBFDF700537CF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDF18E315EBFDF700537CF4 /* Cocoa.framework */; };
+		FDDF190B15EBFDF700537CF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDDF190915EBFDF700537CF4 /* InfoPlist.strings */; };
+		FDDF190E15EBFDF700537CF4 /* AMWorkflowCallerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDF190D15EBFDF700537CF4 /* AMWorkflowCallerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDDF190415EBFDF700537CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDDF18D615EBFDF700537CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDDF18DE15EBFDF700537CF4;
+			remoteInfo = AMWorkflowCaller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDDF18DF15EBFDF700537CF4 /* AMWorkflowCaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMWorkflowCaller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDF18E315EBFDF700537CF4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FDDF18E615EBFDF700537CF4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FDDF18E715EBFDF700537CF4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FDDF18E815EBFDF700537CF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDDF18EB15EBFDF700537CF4 /* AMWorkflowCaller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMWorkflowCaller-Info.plist"; sourceTree = "<group>"; };
+		FDDF18ED15EBFDF700537CF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDDF18EF15EBFDF700537CF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDDF18F115EBFDF700537CF4 /* AMWorkflowCaller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMWorkflowCaller-Prefix.pch"; sourceTree = "<group>"; };
+		FDDF18F315EBFDF700537CF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FDDF18F515EBFDF700537CF4 /* PBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBAppDelegate.h; sourceTree = "<group>"; };
+		FDDF18F615EBFDF700537CF4 /* PBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBAppDelegate.m; sourceTree = "<group>"; };
+		FDDF18F915EBFDF700537CF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FDDF190015EBFDF700537CF4 /* AMWorkflowCallerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMWorkflowCallerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDF190115EBFDF700537CF4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FDDF190815EBFDF700537CF4 /* AMWorkflowCallerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMWorkflowCallerTests-Info.plist"; sourceTree = "<group>"; };
+		FDDF190A15EBFDF700537CF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDDF190C15EBFDF700537CF4 /* AMWorkflowCallerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMWorkflowCallerTests.h; sourceTree = "<group>"; };
+		FDDF190D15EBFDF700537CF4 /* AMWorkflowCallerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMWorkflowCallerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDDF18DC15EBFDF700537CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDF18E415EBFDF700537CF4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDF18FC15EBFDF700537CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDF190215EBFDF700537CF4 /* SenTestingKit.framework in Frameworks */,
+				FDDF190315EBFDF700537CF4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDDF18D415EBFDF700537CF4 = {
+			isa = PBXGroup;
+			children = (
+				FDDF18E915EBFDF700537CF4 /* AMWorkflowCaller */,
+				FDDF190615EBFDF700537CF4 /* AMWorkflowCallerTests */,
+				FDDF18E215EBFDF700537CF4 /* Frameworks */,
+				FDDF18E015EBFDF700537CF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDDF18E015EBFDF700537CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDDF18DF15EBFDF700537CF4 /* AMWorkflowCaller.app */,
+				FDDF190015EBFDF700537CF4 /* AMWorkflowCallerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDDF18E215EBFDF700537CF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDDF18E315EBFDF700537CF4 /* Cocoa.framework */,
+				FDDF190115EBFDF700537CF4 /* SenTestingKit.framework */,
+				FDDF18E515EBFDF700537CF4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDDF18E515EBFDF700537CF4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDDF18E615EBFDF700537CF4 /* AppKit.framework */,
+				FDDF18E715EBFDF700537CF4 /* CoreData.framework */,
+				FDDF18E815EBFDF700537CF4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FDDF18E915EBFDF700537CF4 /* AMWorkflowCaller */ = {
+			isa = PBXGroup;
+			children = (
+				FDDF18F515EBFDF700537CF4 /* PBAppDelegate.h */,
+				FDDF18F615EBFDF700537CF4 /* PBAppDelegate.m */,
+				FDDF18F815EBFDF700537CF4 /* MainMenu.xib */,
+				FDDF18EA15EBFDF700537CF4 /* Supporting Files */,
+			);
+			path = AMWorkflowCaller;
+			sourceTree = "<group>";
+		};
+		FDDF18EA15EBFDF700537CF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDDF18EB15EBFDF700537CF4 /* AMWorkflowCaller-Info.plist */,
+				FDDF18EC15EBFDF700537CF4 /* InfoPlist.strings */,
+				FDDF18EF15EBFDF700537CF4 /* main.m */,
+				FDDF18F115EBFDF700537CF4 /* AMWorkflowCaller-Prefix.pch */,
+				FDDF18F215EBFDF700537CF4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDDF190615EBFDF700537CF4 /* AMWorkflowCallerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDDF190C15EBFDF700537CF4 /* AMWorkflowCallerTests.h */,
+				FDDF190D15EBFDF700537CF4 /* AMWorkflowCallerTests.m */,
+				FDDF190715EBFDF700537CF4 /* Supporting Files */,
+			);
+			path = AMWorkflowCallerTests;
+			sourceTree = "<group>";
+		};
+		FDDF190715EBFDF700537CF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDDF190815EBFDF700537CF4 /* AMWorkflowCallerTests-Info.plist */,
+				FDDF190915EBFDF700537CF4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDDF18DE15EBFDF700537CF4 /* AMWorkflowCaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDF191115EBFDF700537CF4 /* Build configuration list for PBXNativeTarget "AMWorkflowCaller" */;
+			buildPhases = (
+				FDDF18DB15EBFDF700537CF4 /* Sources */,
+				FDDF18DC15EBFDF700537CF4 /* Frameworks */,
+				FDDF18DD15EBFDF700537CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMWorkflowCaller;
+			productName = AMWorkflowCaller;
+			productReference = FDDF18DF15EBFDF700537CF4 /* AMWorkflowCaller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDDF18FF15EBFDF700537CF4 /* AMWorkflowCallerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDF191415EBFDF700537CF4 /* Build configuration list for PBXNativeTarget "AMWorkflowCallerTests" */;
+			buildPhases = (
+				FDDF18FB15EBFDF700537CF4 /* Sources */,
+				FDDF18FC15EBFDF700537CF4 /* Frameworks */,
+				FDDF18FD15EBFDF700537CF4 /* Resources */,
+				FDDF18FE15EBFDF700537CF4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDF190515EBFDF700537CF4 /* PBXTargetDependency */,
+			);
+			name = AMWorkflowCallerTests;
+			productName = AMWorkflowCallerTests;
+			productReference = FDDF190015EBFDF700537CF4 /* AMWorkflowCallerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDDF18D615EBFDF700537CF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PB;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Peter Brachwitz";
+			};
+			buildConfigurationList = FDDF18D915EBFDF700537CF4 /* Build configuration list for PBXProject "AMWorkflowCaller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDDF18D415EBFDF700537CF4;
+			productRefGroup = FDDF18E015EBFDF700537CF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDDF18DE15EBFDF700537CF4 /* AMWorkflowCaller */,
+				FDDF18FF15EBFDF700537CF4 /* AMWorkflowCallerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDDF18DD15EBFDF700537CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDF18EE15EBFDF700537CF4 /* InfoPlist.strings in Resources */,
+				FDDF18F415EBFDF700537CF4 /* Credits.rtf in Resources */,
+				FDDF18FA15EBFDF700537CF4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDF18FD15EBFDF700537CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDF190B15EBFDF700537CF4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FDDF18FE15EBFDF700537CF4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDDF18DB15EBFDF700537CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDF18F015EBFDF700537CF4 /* main.m in Sources */,
+				FDDF18F715EBFDF700537CF4 /* PBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDF18FB15EBFDF700537CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDF190E15EBFDF700537CF4 /* AMWorkflowCallerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDDF190515EBFDF700537CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDDF18DE15EBFDF700537CF4 /* AMWorkflowCaller */;
+			targetProxy = FDDF190415EBFDF700537CF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDDF18EC15EBFDF700537CF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDF18ED15EBFDF700537CF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDDF18F215EBFDF700537CF4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDF18F315EBFDF700537CF4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FDDF18F815EBFDF700537CF4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDF18F915EBFDF700537CF4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FDDF190915EBFDF700537CF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDF190A15EBFDF700537CF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDDF190F15EBFDF700537CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FDDF191015EBFDF700537CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FDDF191215EBFDF700537CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMWorkflowCaller/AMWorkflowCaller-Prefix.pch";
+				INFOPLIST_FILE = "AMWorkflowCaller/AMWorkflowCaller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDDF191315EBFDF700537CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMWorkflowCaller/AMWorkflowCaller-Prefix.pch";
+				INFOPLIST_FILE = "AMWorkflowCaller/AMWorkflowCaller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FDDF191515EBFDF700537CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AMWorkflowCaller.app/Contents/MacOS/AMWorkflowCaller";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMWorkflowCaller/AMWorkflowCaller-Prefix.pch";
+				INFOPLIST_FILE = "AMWorkflowCallerTests/AMWorkflowCallerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FDDF191615EBFDF700537CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AMWorkflowCaller.app/Contents/MacOS/AMWorkflowCaller";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMWorkflowCaller/AMWorkflowCaller-Prefix.pch";
+				INFOPLIST_FILE = "AMWorkflowCallerTests/AMWorkflowCallerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDDF18D915EBFDF700537CF4 /* Build configuration list for PBXProject "AMWorkflowCaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDF190F15EBFDF700537CF4 /* Debug */,
+				FDDF191015EBFDF700537CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDF191115EBFDF700537CF4 /* Build configuration list for PBXNativeTarget "AMWorkflowCaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDF191215EBFDF700537CF4 /* Debug */,
+				FDDF191315EBFDF700537CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDDF191415EBFDF700537CF4 /* Build configuration list for PBXNativeTarget "AMWorkflowCallerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDF191515EBFDF700537CF4 /* Debug */,
+				FDDF191615EBFDF700537CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDDF18D615EBFDF700537CF4 /* Project object */;
+}
