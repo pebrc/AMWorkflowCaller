@@ -1,0 +1,61 @@
+Automator Runner(2717) deny mach-lookup /Users/brachwitz/Library/Developer/Xcode/DerivedData/AMWorkflowCaller-arjgkslqihljquelyvybmpsnljrn/Build/Products/Debug/AMWorkf
+
+Process:         Automator Runner [2717]
+Path:            /System/Library/CoreServices/Automator Runner.app/Contents/MacOS/Automator Runner
+Load Address:    0x100000000
+Identifier:      com.apple.AutomatorRunner
+Version:         346 (1.1.2)
+Build Info:      31-Automator~346000000000000
+Code Type:       x86_64 (Native)
+Parent Process:  AMWorkflowCalle [2707]
+
+Date/Time:       2012-08-27 21:59:19.847 +0200
+OS Version:      Mac OS X 10.8.1 (12B19)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff96ce9686 mach_msg_trap + 10
+1   liblaunch.dylib               	0x00007fff8db637c4
+2   liblaunch.dylib               	0x00007fff8db624d9 bootstrap_look_up3 + 69
+3   liblaunch.dylib               	0x00007fff8db62609 bootstrap_look_up2 + 40
+4   Foundation                    	0x00007fff8f4acffe -[NSMachBootstrapServer portForName:options:] + 102
+5   Foundation                    	0x00007fff8f4b84cb +[NSConnection connectionWithRegisteredName:host:usingNameServer:] + 30
+6   Automator Runner              	0x0000000100001a51 -[AMRunnerDelegate processArguments] + 487
+7   CoreFoundation                	0x00007fff9302e4f9 -[NSSet makeObjectsPerformSelector:] + 201
+8   AppKit                        	0x00007fff94534b96 -[NSIBObjectData nibInstantiateWithOwner:topLevelObjects:] + 1168
+9   AppKit                        	0x00007fff94513b7d loadNib + 317
+10  AppKit                        	0x00007fff945130a9 +[NSBundle(NSNibLoading) _loadNibFile:nameTable:withZone:ownerBundle:] + 219
+11  AppKit                        	0x00007fff94512ede -[NSBundle(NSNibLoading) loadNibNamed:owner:topLevelObjects:] + 200
+12  AppKit                        	0x00007fff94512cbe +[NSBundle(NSNibLoading) loadNibNamed:owner:] + 360
+13  AppKit                        	0x00007fff9450f47f NSApplicationMain + 398
+14  libdyld.dylib                 	0x00007fff8dbf37e1 start + 0
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff96ceb6d6 __workq_kernreturn + 10
+1   libsystem_c.dylib             	0x00007fff8d488cf3 _pthread_wqthread + 412
+2   libsystem_c.dylib             	0x00007fff8d4731b1 start_wqthread + 13
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff96cebd16 kevent + 10
+1   libdispatch.dylib             	0x00007fff90f37a2a _dispatch_mgr_thread + 54
+
+Thread 3:
+0   libsystem_kernel.dylib        	0x00007fff96ceb6d6 __workq_kernreturn + 10
+1   libsystem_c.dylib             	0x00007fff8d488cf3 _pthread_wqthread + 412
+2   libsystem_c.dylib             	0x00007fff8d4731b1 start_wqthread + 13
+
+Thread 4:
+0   libsystem_kernel.dylib        	0x00007fff96ceb6d6 __workq_kernreturn + 10
+1   libsystem_c.dylib             	0x00007fff8d488cf3 _pthread_wqthread + 412
+2   libsystem_c.dylib             	0x00007fff8d4731b1 start_wqthread + 13
+
+Binary Images:
+       0x100000000 -        0x100002ff7  com.apple.AutomatorRunner (1.1.2 - 346) <55510B65-E5BE-3AF2-9142-B375958CF253> /System/Library/CoreServices/Automator Runner.app/Contents/MacOS/Automator Runner
+    0x7fff8d472000 -     0x7fff8d53efef  libsystem_c.dylib (825.24) <16B6B86C-53EE-36E8-AC2B-4AADC1008098> /usr/lib/system/libsystem_c.dylib
+    0x7fff8db60000 -     0x7fff8db68fff  liblaunch.dylib (442.21) <224CB010-6CF8-3FC2-885C-6F80330321EB> /usr/lib/system/liblaunch.dylib
+    0x7fff8dbf1000 -     0x7fff8dbf4ff7  libdyld.dylib (210.2.3) <F59367C9-C110-382B-A695-9035A6DD387E> /usr/lib/system/libdyld.dylib
+    0x7fff8f403000 -     0x7fff8f75fff7  com.apple.Foundation (6.8 - 945) <0C972F73-0C07-3384-98F2-B176E0289494> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+    0x7fff90f33000 -     0x7fff90f48ff7  libdispatch.dylib (228.18) <0B6B6E7F-4D8A-3F3B-A4BF-6CF34638DBBB> /usr/lib/system/libdispatch.dylib
+    0x7fff92fa3000 -     0x7fff9318cfff  com.apple.CoreFoundation (6.8 - 744) <47AEA7C7-EF9B-3FC6-AEBF-CE02FC650301> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+    0x7fff9441d000 -     0x7fff95047fff  com.apple.AppKit (6.8 - 1187) <C9309F5C-9441-3E5B-A120-B03FEDDA63F9> /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+    0x7fff96cd9000 -     0x7fff96cf4ff7  libsystem_kernel.dylib (2050.9.2) <F646589B-13F8-3685-8C17-92C77993AE86> /usr/lib/system/libsystem_kernel.dylib
